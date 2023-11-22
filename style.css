@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   margin: auto;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+#container{
+    font-family: 'Poppins', sans-serif;
+    margin:80px auto 20px auto;
+    text-align: center;
+    width: 400px;
+   height:auto;
+    box-shadow: 0px 0px 23px #000000;
+    border-radius: 8px;
+}
+
+
+#container  h2{
+    color: #0174BE;
+    font-size: 25px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+
+#container  p{
+    color: grey;
+    font-size: 16px;
+    padding-top: 12px;
+    
+}
+ #container .container-log{
+    display: flex;
+    flex-direction: column;
+    padding:12px;
+}
+#container .container-log p{
+    color: grey;
+    font-size: 16px;
+    padding-top: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#container .container-log p:hover{
+   color: #000000;
+}
+#container .container-log input{
+    padding: 4px 22px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    margin-top: 18px;
+    text-align: left;
+}
+#container .container-log button {
+    padding: 8px 8px;
+    margin-left: 110px;
+    width: 150px;
+    margin-top: 24px;
+    outline: none;
+    border: none;
+    background-color: #0174BE;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+#container .container-log .icons{
+    padding: 30px 12px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#container .container-log .icons i{
+    padding: 10px;
+    font-size: 22px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#container .container-log .icons i:nth-child(1):hover{
+    color: white;
+    border: none;
+    background-color: #0866FF;
+}
+#container .container-log .icons i:nth-child(2):hover{
+    color: white;
+    border: none;
+    background-color: #0A66C2;
+}
+#container .container-log .icons i:nth-child(3):hover{
+    color: white;
+    border: none;
+    background-color: #1D9BF0;
+}
